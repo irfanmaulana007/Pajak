@@ -1,0 +1,32 @@
+body .bg-darker {
+  background-color: #ddd; }
+
+.nomargin {
+  margin: 0 !important; }
+
+.nopadding {
+  padding: 0px !important; }
+
+.row {
+  margin-left: 0 !important;
+  margin-right: 0 !important; }
+
+.overflow {
+  overflow: auto !important; }
+
+.panel-body.login {
+  padding: 40px 0px; }
+
+table th, table td {
+  white-space: nowrap; }
+
+input, textarea, select, button {
+  border-radius: 2px !important; }
+
+nav {
+  border-radius: 0px !important; }
+
+#banner img {
+  width: 100%; }
+
+/*# sourceMappingURL=styles.css.map */
