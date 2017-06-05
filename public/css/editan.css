@@ -1,0 +1,119 @@
+	
+body{
+    background: white;
+}
+
+.form-login{
+    margin-top: 13%;
+}
+.outter-form-login {
+    padding: 20px;
+    background: #EEEEEE;
+    position: center;
+    border-radius: 5px;
+}
+.logo-login {
+    position: absolute;
+    font-size: 35px;
+    background: blue;
+    color: #FFFFFF;
+    padding: 10px 18px;
+    top: -40px;
+    border-radius: 50%;
+    left: 40%;
+}
+.inner-login .form-control {
+    background: #D3D3D3;
+}
+
+h3.title-login {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+ 
+.forget {
+    margin-top: 20px;
+    color: #ADADAD;
+}
+.btn-custom-green {
+    background: blue;
+    color: #fff;
+}
+
+.content {
+    height:70%;
+    width:95%;
+    margin: 0 auto 50px;
+    padding-top: 40px;
+    padding-bottom: 80px;
+    background-color: #f2f2f2;
+    box-shadow: 0 4px 8px 25px rgba(0, 0, 0, 0.2), 0 6px 20px 25px rgba(0, 0, 0, 0.1);
+}
+
+
+.inputbox{
+    height: 650px;
+    margin: 70px auto 0;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 10px;
+}
+
+.monitorbox{
+    height: 650px;
+    margin: 70px auto 0;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px 10px;
+}
+
+.monitoringtable{
+    table-layout: fixed;
+    width: 200%;
+    height: 30px;
+    white-space: nowrap;
+    margin: 0;
+    text-align: center;
+}
+
+.navbar-default {
+    margin: 30px 10%;
+    
+}
+
+.form-group{
+    margin-top: 20px;
+    width: 70%;
+    float: center;
+}
+
+.form-group-login{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.btn{
+    width: 25%;
+    padding:10px;
+    margin-top: 20px;
+    background-color: blue;
+    color: white;
+}
+
+label{
+    float: left;
+}
+
+
+@media screen and (max-width:980px) {
+    
+    #wrapper{
+        width: 96%;
+    }
+    #maincontent{
+        width: 66%;
+    }
+    #sidebar{
+        width: 30%;
+    }
+}
