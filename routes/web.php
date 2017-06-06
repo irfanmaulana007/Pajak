@@ -15,3 +15,4 @@ Route::get('/','HomeController@login');
 Route::get('Register','HomeController@register');
 
 Route::get('Index','HomeController@monitor');
+Route::get('Input','HomeController@input');

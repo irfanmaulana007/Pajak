@@ -1,5 +1,5 @@
-body .bg-darker {
-  background-color: #ddd; }
+body {
+  background-color: #ddd !important; }
 
 .nomargin {
   margin: 0 !important; }
@@ -7,9 +7,16 @@ body .bg-darker {
 .nopadding {
   padding: 0px !important; }
 
+label.error {
+  color: red;
+  font-style: italic;
+  font-weight: normal; }
+
 .row {
   margin-left: 0 !important;
   margin-right: 0 !important; }
+  .row .smallpadding {
+    padding: 0px 5px !important; }
 
 .overflow {
   overflow: auto !important; }
@@ -18,15 +25,34 @@ body .bg-darker {
   padding: 40px 0px; }
 
 table th, table td {
-  white-space: nowrap; }
+  white-space: nowrap;
+  font-size: 14px; }
+
+.datepicker {
+  padding: 0px !important; }
 
 input, textarea, select, button {
-  border-radius: 2px !important; }
+  border-radius: 0px !important; }
+
+textarea {
+  resize: none; }
+
+#DataTables_Table_0_wrapper {
+  padding: 40px 0px !important; }
 
 nav {
   border-radius: 0px !important; }
 
+#box-content {
+  background-color: #fff;
+  padding: 40px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important; }
+
 #banner img {
   width: 100%; }
+
+footer {
+  margin-top: 100px;
+  padding: 30px 0px; }
 
 /*# sourceMappingURL=styles.css.map */

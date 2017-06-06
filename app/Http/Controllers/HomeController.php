@@ -16,5 +16,8 @@ class HomeController extends Controller{
     public function monitor(){
         return view('monitor');
     }
+    public function input(){
+        return view('input');
+    }
 
 }

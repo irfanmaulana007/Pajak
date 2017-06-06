@@ -9,6 +9,7 @@
     <link href="{{ asset('/css/styles.css')}}" rel="stylesheet">
     <script src="{{ asset('/js/jquery-3.2.1.min.js')}}"></script>
     <script src="{{ asset('/js/bootstrap.min.js')}}"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
 <body>
@@ -21,18 +22,26 @@
         <a class="navbar-brand" href="#">WebSiteName</a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+        <li id="Monitor"><a href="Index">Monitoring</a></li>
+        <li id="Input"><a href="Input">Input</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/"><span class="fa fa-sign-out"></span> Logout</a></li>
       </ul>
     </div>
   </nav>
-  <div id="content" class="container-fluid nopadding">
+
+  <div id="content" class="container nopadding">
       @yield('content')
-  </div>
+  </div> 
+
+  <footer>
+    <h5 class="text-center">Copyright &copy; 2017. All rights reserved. Unit Pelayanan Pajak & Retribusi Daerah Gambir</h5>
+  </footer>
+
+  <script>
+    $("#@yield('title')").addClass("active");  
+  </script>
+
  </body>
 </html>
